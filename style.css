@@ -1,0 +1,13 @@
+body{
+  background-image:URL("images/ew.jpg");
+}
+img{
+  height: 400px;
+  width: 400px;
+}
+.paragraph {
+  color:black;
+}
+#fourth {
+  color:yellow;
+}
