@@ -1,64 +1,94 @@
 body {
-  background-image: url("images/ew.jpg");
+    background-color: pink;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 }
 
-img {
-  height: 400px;
-  width: 400px;
-}
-
-.paragraph {
-  color: black;
-}
-
-#fourth {
-  color: yellow;
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
 }
 
-li{
-  color: #333;
-  padding: 5px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Additional CSS Selectors to Meet Criteria */
-p {
-  /* Type selector 1 */
-  text-align: justify;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-ul {
-  /* Type selector 2 */
-  list-style-type: circle;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
 }
 
-a  {
-  /* Type selector 3 */
-  text-decoration: none;
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-span {
-  /* Type selector 5 */
-  font-style: italic;
+#login {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
-input[type="text"] {
-  /* Type selector 6 */
-  width: 200px;
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    font-weight: bold;
+}
+
+.input-container input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 button {
-  /* Type selector 7 */
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
 }
